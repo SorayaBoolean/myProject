@@ -86,11 +86,11 @@
                 </div>
 
                 <div class="links">
-                    <a href="chi-sono">Chi sono</a>
-                    <a href="studi-page">Studi</a>
-                    <a href="esperienze-page">Esperienze</a>
-                    <a href="my-skills-page">My Skills</a>
-                    <a href="">Contatti</a>
+                    <a href="{{route('chi-sono')}}">Chi sono</a>
+                    <a href="{{route('studi')}}">Studi</a>
+                    <a href="{{route('esperienze')}}">Esperienze</a>
+                    <a href="{{route('skills')}}">My Skills</a>
+                    <a href="{{route('contatti')}}">Contatti</a>
                 </div>
             </div>
         </div>

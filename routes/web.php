@@ -23,12 +23,19 @@ Route::get('/chi-sono', function () {
 
 Route::get('/studi', function () {
     return view('studi');   
-})->name('studi-page');
+})->name('studi');
 
 Route::get('/esperienze', function () {
-    return view('esperienze');    
-})->name('esperienze-page');
+    return view('esperienze');   
+})->name('esperienze');
 
-Route::get('/my-skills', function () {
-    return view('skills');    
-})->name('my-skills-page');
+Route::get('/skills', function () {
+    return view('skills');   
+})->name('skills');
+
+Route::get('/contatti', function () {
+    return view('contatti');   
+})->name('contatti');
+
+
+

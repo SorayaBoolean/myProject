@@ -7,7 +7,29 @@
     <title>skills</title>
 </head>
 <body>
-    <h1>Le mie skills</h1>
-    
+    <h1>My skills</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3>Hard skills</h3>
+                    <ul>
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                        <li>d</li>
+                    </ul>
+            </div>
+            <div class="col-6">
+                <h3>Soft skills</h3>
+                    <ul>
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                        <li>d</li>
+                    </ul>
+            </div>
+            <div><a href="/">Back</a></div>
+        </div>
+    </div>
 </body>
 </html>
