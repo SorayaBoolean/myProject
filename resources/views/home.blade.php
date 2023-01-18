@@ -87,10 +87,10 @@
 
                 <div class="links">
                     <a href="chi-sono">Chi sono</a>
-                    <a href="">Studi</a>
-                    <a href="">Esperienze</a>
-                    <a href="">Hard Skills</a>
-                    <a href="">Soft Skills</a>
+                    <a href="studi-page">Studi</a>
+                    <a href="esperienze-page">Esperienze</a>
+                    <a href="my-skills-page">My Skills</a>
+                    <a href="">Contatti</a>
                 </div>
             </div>
         </div>

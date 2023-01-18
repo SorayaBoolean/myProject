@@ -18,6 +18,17 @@ Route::get('/', function () {
 });
 
 Route::get('/chi-sono', function () {
-    return view('chisono');
-    echo "ciao";
+    return view('chisono');    
 })->name('chi-sono');
+
+Route::get('/studi', function () {
+    return view('studi');   
+})->name('studi-page');
+
+Route::get('/esperienze', function () {
+    return view('esperienze');    
+})->name('esperienze-page');
+
+Route::get('/my-skills', function () {
+    return view('skills');    
+})->name('my-skills-page');
